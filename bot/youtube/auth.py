@@ -25,7 +25,7 @@ class NoCredentialFile(Exception):
 
 class GoogleAuth:
     OAUTH_SCOPE = ["https://www.googleapis.com/auth/youtube.upload"]
-    REDIRECT_URI = "http://127.0.0.1:port"
+    REDIRECT_URI = "http://0.0.0.0:0"
     API_SERVICE_NAME = "youtube"
     API_VERSION = "v3"
 
